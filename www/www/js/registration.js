@@ -5,6 +5,7 @@ var ref="";
 var app = {
     // Application Constructor
     initialize: function() {
+			logar();
 		alert('a');
         this.bindEvents();
     },
