@@ -97,7 +97,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-   <allow-navigation href="http://192.241.205.6//*" />
+    <allow-navigation href="http://192.241.205.6//*" />
     <platform name="android">
         <allow-intent href="market:*" />
         <allow-navigation href="http://192.241.205.6//*" />
@@ -109,4 +109,5 @@
     </platform>
     <engine name="ios" spec="^4.5.5" />
     <engine name="android" spec="^7.1.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
 </widget>

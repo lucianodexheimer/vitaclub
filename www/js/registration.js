@@ -5,6 +5,7 @@ var ref="";
 var app = {
     // Application Constructor
     initialize: function() {
+		alert('a');
         this.bindEvents();
     },
     // Bind Event Listeners

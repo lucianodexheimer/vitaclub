@@ -23,7 +23,8 @@
             },
             "cordova-plugin-console": {},
             "cordova-plugin-dialogs": {},
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-inappbrowser": {}
         },
         "platforms": [
             "ios",

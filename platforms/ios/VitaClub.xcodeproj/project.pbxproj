@@ -52,6 +52,7 @@
 		C613C946B1464D3FA7653A41 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05A3253A5A495F990D153F /* AddressBook.framework */; };
 		94E7B48DAC794D238834E448 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C3D65BFC2A4A55AD91BAA6 /* libsqlite3.tbd */; };
 		AAB1AE4F4AE14BEC907398AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC82C82D99CA4CE0A7541205 /* libz.tbd */; };
+		127ACF02792A457493355F25 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C6842166C4E2387498BD8 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,8 @@
 		5B05A3253A5A495F990D153F /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		A7C3D65BFC2A4A55AD91BAA6 /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		AC82C82D99CA4CE0A7541205 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		9B6C6842166C4E2387498BD8 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5BD586D327A24BECA0292CBD /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +340,8 @@
 				6DC78C10AB5448189CDC2082 /* GCMReceiverDelegate.h */,
 				834F7EAC608F45DCB8DF619D /* GCMService.h */,
 				71E2963C836349B5A8034A3B /* GoogleCloudMessaging.h */,
+				9B6C6842166C4E2387498BD8 /* CDVInAppBrowser.m */,
+				5BD586D327A24BECA0292CBD /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "VitaClub/Plugins";
@@ -455,6 +460,7 @@
 				FE33477C1966445D86CBD7C5 /* CDVStatusBar.m in Sources */,
 				0101B8E7F2694311A7AB8693 /* AppDelegate+notification.m in Sources */,
 				66767EBAE85A418E9A77D6E0 /* PushPlugin.m in Sources */,
+				127ACF02792A457493355F25 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
