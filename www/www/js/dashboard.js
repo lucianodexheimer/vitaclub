@@ -1,4 +1,5 @@
 function logar() {
+	alert('log');
 	cordova.InAppBrowser.open('http://192.241.205.6/vitaclub/', '_blank', 'toolbar=no,location=no,transitionstyle=crossdissolve');
 	$('#load').load('http://192.241.205.6/vitaclub/usuarios/loginCookie.php',{'auth_usuario':localStorage.usuario,'auth_senha':localStorage.senha,'regID':localStorage.registrationId,'device':localStorage.device},function(){
 		//alert('teste');
