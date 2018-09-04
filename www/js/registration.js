@@ -5,7 +5,7 @@ var ref="";
 var app = {
     // Application Constructor
     initialize: function() {
-		alert('a');
+		logar();
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -41,7 +41,7 @@ var app = {
         console.log('after init');
 
         push.on('registration', function(data) {
-			logar();
+			//logar();
 			
 			//alert(device.platform);
             var oldRegId = localStorage.getItem('registrationId');

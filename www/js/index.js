@@ -7,7 +7,7 @@ $(function(){
 	server='http://192.241.205.6/vitaclub/';
 	
 	if(localStorage.id!=undefined && localStorage.senha!=undefined && localStorage.usuario!=undefined) {
-		alert(localStorage.usuario);
+		//alert(localStorage.usuario);
 		//window.location.replace('dashboard.html');
 		//console.log(localStorage.usuario);
 	} 
