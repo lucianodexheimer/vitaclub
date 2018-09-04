@@ -34,6 +34,7 @@ $(function(){
 				success: function(a) {
 					$('#btn-entrar').html('<i class="icon-lock"></i> Entrar');
 					if(a==0) {
+						alert('Erro');
 						navigator.notification.alert('Usuário e/ou senha incorreto(s)!', callbk, 'VitaClub', 'Ok');
 					} else {
 						localStorage.setItem("id", a.id);
