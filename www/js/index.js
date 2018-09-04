@@ -38,7 +38,7 @@ $(function(){
 						localStorage.setItem("id", a.id);
 						localStorage.setItem("usuario", a.usuario);
 						localStorage.setItem("senha", a.senha);
-						a
+						
 						window.location.replace('dashboard.html');
 					}
 				},
@@ -55,13 +55,16 @@ $(function(){
 		$('#box-recuperar-senha').show();
 		return false;
 	});
+	
 	$('#btn-voltar').click(function(){
 		$('#box-recuperar-senha').hide();
 		$('#box-login').show();
 		return false;
 	});
+	
 	function alertCallback() {
 	}
+	
 	$('#btn-recuperar').click(function(){
 		var login = $('#js-recuperar-login').val();
 		if(login=="") {
