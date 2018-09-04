@@ -2,7 +2,6 @@ function callbk() {
 }
 
 function logar() {
-alert('log');
 	} 
 $(function(){
 	server='http://192.241.205.6/vitaclub/';
